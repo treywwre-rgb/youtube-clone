@@ -1,11 +1,12 @@
 
 import React from 'react';
 import './Video.css'
+import PlayVideo from '../../Components/Navbar/PlayVideo/PlayVideo';
 
 const Video = () => {
 	return (
-		<div>
-			
+		<div className='play-container'>
+			<PlayVideo />
 		</div>
 	);
 };
