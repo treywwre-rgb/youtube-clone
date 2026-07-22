@@ -30,9 +30,71 @@ const PlayVideo = () => {
             <p>GreatStack</p>
             <span>1M Subscribers</span>
             </div>
+            <button>Subscribe</button>
 		</div>
-        <button>Subscribe</button>
-        </div>
+        <div className="vid-description">
+            <p>Channel that makes learning easy.</p>
+            <p>Subscribe to GreatStack to watch More Tutorials on web development</p>
+            <hr />
+            <h4>130 Comments</h4>
+            <div className="comment">
+                <img src={user_profile} alt="" />
+                <div>
+                    <h3>Jack Nicholson <span>1 day ago</span></h3>
+                    <p>A global computer network providing a variety of information
+                    of interconnected networks using standardized communication protocols
+                    </p>
+                    <div className="comment-action">
+                        <img src={like} alt="" />
+                        <span>244</span>
+                        <img src={dislike}alt="" />
+                    </div>
+                </div>
+            </div>
+             <div className="comment">
+                <img src={user_profile} alt="" />
+                <div>
+                    <h3>Jack Nicholson <span>1 day ago</span></h3>
+                    <p>A global computer network providing a variety of information
+                    of interconnected networks using standardized communication protocols
+                    </p>
+                    <div className="comment-action">
+                        <img src={like} alt="" />
+                        <span>244</span>
+                        <img src={dislike}alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>    
+             <div className="comment">
+                <img src={user_profile} alt="" />
+                <div>
+                    <h3>Jack Nicholson <span>1 day ago</span></h3>
+                    <p>A global computer network providing a variety of information
+                    of interconnected networks using standardized communication protocols
+                    </p>
+                    <div className="comment-action">
+                        <img src={like} alt="" />
+                        <span>244</span>
+                        <img src={dislike}alt="" />
+                    </div>
+                </div>
+            </div>
+             <div className="comment">
+                <img src={user_profile} alt="" />
+                <div>
+                    <h3>Jack Nicholson <span>1 day ago</span></h3>
+                    <p>A global computer network providing a variety of information
+                    of interconnected networks using standardized communication protocols
+                    </p>
+                    <div className="comment-action">
+                        <img src={like} alt="" />
+                        <span>244</span>
+                        <img src={dislike}alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>    
 	);
 };
 
