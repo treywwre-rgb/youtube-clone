@@ -7,6 +7,7 @@ import Video from './Pages/Video/Video';
 const App = () => {
 
   const [sidebar,setSidebar] = useState(true)
+  const [category, setCategory] = useState(0)
 
   return (
     <div>

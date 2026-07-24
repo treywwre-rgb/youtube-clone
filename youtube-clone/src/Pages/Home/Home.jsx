@@ -5,9 +5,8 @@ import Feed from '../../Components/Navbar/Feed/Feed'
 import { useState } from 'react'
 
 
-const Home = ({sidebar}) => {
+const Home = ({sidebar, category, setCategory}) => {
 
-  const [category,setCategory] = useState(0)
 
   return (
     <> 
