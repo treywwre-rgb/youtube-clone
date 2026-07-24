@@ -15,7 +15,7 @@ const PlayVideo = () => {
 			<video src={video1} controls autoPlay muted></video>
             <h3>Best YouTube Channel To Learn Web Development</h3>
             <div className="play-video-info">
-                <p>1525 Views &bul; 2 days ago</p>
+                <p>1525 Views &bull; 2 days ago</p>
                <div>
                     <span><img src={like} alt="" />125</span>
                     <span><img src={dislike} alt="" />2</span>
@@ -62,9 +62,8 @@ const PlayVideo = () => {
                         <img src={like} alt="" />
                         <span>244</span>
                         <img src={dislike}alt="" />
-                    </div>
                 </div>
-            </div>
+             </div>
         </div>    
              <div className="comment">
                 <img src={user_profile} alt="" />
@@ -91,6 +90,7 @@ const PlayVideo = () => {
                         <img src={like} alt="" />
                         <span>244</span>
                         <img src={dislike}alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
