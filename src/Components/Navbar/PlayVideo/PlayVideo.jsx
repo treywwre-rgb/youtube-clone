@@ -15,9 +15,9 @@ const PlayVideo = () => {
 
     const {videoId} = useParams()
 
-    const {apiData,setApiData} = useState(null);
-    const {channelData,setChannelData} = useState(null);
-    const {commentData,setCommentData} = useState([])
+    const [apiData,setApiData] = useState(null);
+    const [channelData,setChannelData] = useState(null);
+    const [commentData,setCommentData] = useState([])
 
     const fetchVideoData = async () =>{
         // Fetching Videos Data
