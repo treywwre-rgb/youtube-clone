@@ -8,7 +8,7 @@ import save from '../../../assets/save.png'
 import jack from '../../../assets/jack.png'
 import user_profile from '../../../assets/user_profile.jpg'
 import { API_KEY, value_converter } from '../../../Data';
-import moment from 'moment';
+import moment from 'moment'
 import { useParams } from 'react-router-dom';
 
 const PlayVideo = () => {
@@ -21,7 +21,7 @@ const PlayVideo = () => {
 
     const fetchVideoData = async () =>{
         // Fetching Videos Data
-        const videoDetails_url = `https://www.googleapis.com/youtube/v3/videos?part=snippet%2CccontentDetails%2Cstatistics&id=${videoId}&key=${API_KEYe}`;
+        const videoDetails_url = `https://www.googleapis.com/youtube/v3/videos?part=snippet%2CccontentDetails%2Cstatistics&id=${videoId}&key=${API_KEY}`;
         await fetch(videoDetails_url).then(res=>res.json()).then(data =>setApiData(data.items[0]));
     }
 
